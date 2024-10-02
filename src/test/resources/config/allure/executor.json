@@ -1,0 +1,10 @@
+{
+  "name": "Jenkins",
+  "type": "jenkins",
+  "url": "https://www.enuygun.com",
+  "buildOrder": 1,
+  "buildName": "Allure Report Customize",
+  "buildUrl": "https://www.enuygun.com",
+  "reportUrl": "https://www.enuygun.com",
+  "reportName": "Allure Report Customize"
+}

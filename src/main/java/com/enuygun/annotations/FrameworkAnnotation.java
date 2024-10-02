@@ -1,0 +1,20 @@
+package com.enuygun.annotations;
+
+import com.enuygun.enums.AuthorType;
+import com.enuygun.enums.CategoryType;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface FrameworkAnnotation {
+
+    // public String[] category();
+    public CategoryType[] category();
+
+
+    public AuthorType[] author();
+}
